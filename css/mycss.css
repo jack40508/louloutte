@@ -1,0 +1,190 @@
+.navbar{
+  display: none;
+}
+
+.margin-nav{
+  margin-top: 10vh;
+}
+
+/*Top*/
+#page-top{
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#top-image-set{
+  height: 90vh;
+}
+
+#slogon{
+  max-height:20vh;
+  max-width: 100%;
+}
+
+.slideshow{
+  margin: auto;
+}
+.slideshow img{
+  width: 200vw;
+  height: auto;
+  padding: 0 3vw;
+}
+div.responsive img{
+  width: auto;
+  height: auto;
+}
+.cycle-pager{
+  position: static;
+  margin-top: 5px;
+}
+div.vertical{
+  width: 100px;
+}
+
+/* Introduction*/
+#introduction-set-article{
+  text-align:center;
+}
+
+#introduction-set-article div{
+  margin-top: 10vh;
+}
+
+
+#img-introduction{
+  max-width: 80vw;
+}
+
+.carousel-item{
+  text-align:center;
+}
+
+.carousel-item img{
+  max-height: 60vh;
+  margin: auto;
+}
+
+/*Animate進場*/
+@keyframes fadeIn{
+    from{
+      top:calc(0%);
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+}
+
+/*Menu*/
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='ffffff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='ffffff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#img-icon-menu{
+  max-width: 15vw;
+}
+
+#menu-modal-body{
+  text-align: center;
+}
+
+.img-modal-menu{
+  height: 20vh;
+  max-width: 100%;
+}
+
+.model-menu-title{
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-color:lightgray;
+}
+
+/*Gallery*/
+.img-gallery{
+  max-height: 20vh;
+  max-width: 100%;
+}
+
+.gallery-img{
+  max-height: 20vh;
+  margin-top: 5vh;
+  text-align:center;
+}
+
+/*About*/
+.about-info{
+  text-align:center;
+}
+
+#page-about{
+  position: relative;
+}
+
+/*Footer*/
+#footer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .page{
+    height: 100vh;
+  }
+
+  .navbar{
+    float:left;
+    width: 100%;
+    display: flex;
+  }
+
+  .margin-nav{
+    margin-top: 65px;
+  }
+
+  #top_logo_area{
+    display: none;
+  }
+
+  /*Introduction*/
+  #introduction-set-article div{
+    margin-top: 30vh;
+  }
+
+  /*Menu*/
+  #img-icon-menu{
+    height: 10vh;
+  }
+
+  /*Gallery*/
+  .img-gallery{
+    max-height: 20vh;
+    max-width: 100%;
+    opacity: 50%;
+  }
+
+  .img-gallery:hover{
+    opacity: 100%;
+  }
+
+  /*Footer*/
+  #footer {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+  #sm-footer{
+    display: none;
+  }
+
+
+}
